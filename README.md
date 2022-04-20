@@ -1,5 +1,3 @@
-### TURN ON DARK MODE<p align="left"> <img src="images/Mode-changer.gif" width="150" height="70"> </p>
-## PRESENTED BY <p align="center"> <img src="images/Logo-Transparent for Black BG.png" width="220" height="200"> </p>
 # 🔴SOC-GHTK
 This is a Project Designed for Security Analysts at Giao Hang Tiet Kiem JSC (GHTK)
 
@@ -29,11 +27,20 @@ This Projects serves below usecases:
  - Please Refer the installation guideline from Index.
  - Once you have your Elastic instance up and running, please refer to this video [HERE](https://youtu.be/fXLsY_eZoeE) for full walkthrough.
 
-# ☸Components(First Phase of Implementation):
-All of the components used in this projects are Open Source.
+# ☸Components:
+In GHTK 
  - **Elastic SIEM**: Open source SIEM platform powered by ElasticSearch, Logstash, Kibana
+ - **Cortex-Xsoar**: [Xsoar](https://github.com/demisto/content) is the industry-leading Security Orchestration, Automation & Response (SOAR) technology by Palo Alto Networks that will automate up to 95% of all response actions requiring human review and allow overloaded security teams to focus on the actions that really require their attention
+	- Official GitRepo of Graylog is **[HERE](https://www.paloaltonetworks.com/cortex/cortex-xsoar)**
+ - **Graylogs**: [Graylog](https://github.com/Graylog2/graylog2-server) is built to open standards for connectivity and interoperability to seamlessly collect, transfer, store, and analyze log data. Graylog is also SIEM-agnostic by design—our log streams can pass unaltered or enriched data to any application in your monitoring, alerting, and analysis stack. Your choice of scalable log management solution should let you do more with your security and performance data.
+    - Official GitRepo of Graylog is **[HERE](https://www.graylog.org/)**
+ - **fleetdm**: [fleetdm](https://github.com/fleetdm/fleet) State of the art host monitoring platform tailored for security experts. Leveraging Facebook's battle-tested osquery project, Fleetdm delivers continuous updates, features and fast answers to big questions.
+	- Official GitRepo of Fleetdm is **[HERE](https://fleetdm.com/)**
+ - **osquery**: [fleetdm](https://github.com/osquery/osquery) Easily ask questions about your Linux and macOS infrastructure using a SQL-like query language; the provided incident-response pack helps you detect and respond to breaches.
+
+	
+Another open source we recommend with similar functionality
  - **TheHive**: [TheHive](https://thehive-project.org/) is a scalable 3-in-1 open source and free Security Incident Response Platform designed to make life easier for SOCs, CSIRTs, CERTs and any information security practitioner dealing with security incidents that need to be investigated and acted upon swiftly.
-    - Official GitRepo of TheHive is **[HERE](https://github.com/TheHive-Project/TheHive)**
  - **Cortex**: Cortex, an open source and free software, has been created by TheHive Project for this very purpose. Observables, such as IP and email addresses, URLs, domain names, files or hashes, can be analyzed one by one or in bulk mode using a Web interface. Analysts can also automate these operations thanks to the Cortex REST API.
     - Official GitRepo of Cortex is **[HERE](https://github.com/TheHive-Project/Cortex)**
  - **MISP**: MISP is an open source software solution for collecting, storing, distributing and sharing cyber security indicators and threats about cyber security incidents analysis and malware analysis. MISP is designed by and for incident analysts, security and ICT professionals or malware reversers to support their day-to-day operations to share structured information efficiently.
@@ -54,7 +61,7 @@ All of the components used in this projects are Open Source.
  - **Elastic EDR**: [Elastic EDR](https://www.elastic.co/endpoint-security/) prevents ransomware and malware, detects advanced threats, and arms responders with vital context. It’s free and open, ready for every endpoint.
 
 # 🔽Installation-Requirements: 
-## ☁Hardware Requirements: 1500 VM
+## ☁Hardware Requirements: about 1500 VM
  - cortex Xsoar - Ubuntu20- 16Gb RAM, 8vcore, 500Gb Disk
  - Graylog SIEM- Ubuntu20- 16Gb RAM, 8vcore, 500Gb Disk
  - Logstash/filebeat/winlogbeat- ubuntu20- 16Gb RAM, 8vcore, 200GB Disk
@@ -66,6 +73,7 @@ All of the components used in this projects are Open Source.
 | 9200 | Your IP | Accessing ElasticSearch|
 | 5601 | Your IP | Accessing Kibana UI
 | 9000 | Your IP | Accessing Graylog UI|
+| 5044 | Your IP | Accessing Logstash|
 
 # 🤝Contributing
 We welcome your contributions. Please feel free to fork the code, play with it, make some patches and send us pull requests. 
