@@ -1,0 +1,22 @@
+site_name: SOC-GHTK
+theme: readthedocs
+
+repo_url: https://github.com/ducna96/SOC-GHTK
+edit_uri: 
+docs_dir: .
+site_dir: build
+extra_css:
+- theme/ghtk-soc.css
+
+markdown_extensions:
+  - admonition
+
+nav:
+- Introduction:
+  - Welcome to osquery: index.md
+- installation:
+  - Install install-graylog: installation/install-graylog.md
+  - Install install-logtash-filebeat: installation/install-logtash-filebeat.md
+  - Install install-grafana-prometheus: installation/install-grafana-prometheus.md
+- integration:
+  - Configuration: integration/integration.md
