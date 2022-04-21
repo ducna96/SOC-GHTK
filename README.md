@@ -11,7 +11,8 @@ This Projects serves below usecases:
  - **Automate** process of Threat Hunt, Creation of actionable Playbooks, SOC data Analytics
  - **Automate** the process of analsis observables they have collected, **at scale, by querying a single tool** instead of several
  - Actively respond to threats and interact with the constituency and other teams
- - **Enrich** Data feeds with Open Source Threat Intelligence Platoform
+ - Scan internal network regularly
+ - **Enrich** Data feeds with Open Source Threat Intelligence Platform
 
 # ☸Architecture-Diagram(Ongoing):
 <p align="center"> <img src="images/GHTK-SOC.jpg"> </p>
@@ -20,32 +21,30 @@ This Projects serves below usecases:
  - For utilizing Shuffle workflow please first refer the installation guideline from Index.
  - Once you have your shuffle instance up and running, please refer to this video [HERE](https://youtu.be/Nb9_ahZMC5U) for full walkthrough.
 
-# ☸Adding EDR to Stack(Ongoing):
-<p align="center"> <img src="images/Part3.png"> </p>
 
-## ☸EDR Implementation
- - Please Refer the installation guideline from Index.
- - Once you have your Elastic instance up and running, please refer to this video [HERE](https://youtu.be/fXLsY_eZoeE) for full walkthrough.
-
-# ☸Components:
+# ☸SOC Techstack:
 In GHTK 
  - **Elastic SIEM**: Open source SIEM platform powered by ElasticSearch, Logstash, Kibana
+	- Official GitRepo of Logstash is **[HERE](https://github.com/elastic/logstash)**
+	- Official GitRepo of Elasticsearch is **[HERE](https://github.com/elastic/elasticsearch)**
+	- Official GitRepo of Kibana is **[HERE](https://github.com/elastic/kibana)**
  - **Cortex-Xsoar**: [Xsoar](https://github.com/demisto/content) is the industry-leading Security Orchestration, Automation & Response (SOAR) technology by Palo Alto Networks that will automate up to 95% of all response actions requiring human review and allow overloaded security teams to focus on the actions that really require their attention
 	- Official GitRepo of Graylog is **[HERE](https://www.paloaltonetworks.com/cortex/cortex-xsoar)**
  - **Graylogs**: [Graylog](https://github.com/Graylog2/graylog2-server) is built to open standards for connectivity and interoperability to seamlessly collect, transfer, store, and analyze log data. Graylog is also SIEM-agnostic by design—our log streams can pass unaltered or enriched data to any application in your monitoring, alerting, and analysis stack. Your choice of scalable log management solution should let you do more with your security and performance data.
     - Official GitRepo of Graylog is **[HERE](https://www.graylog.org/)**
- - **fleetdm**: [fleetdm](https://github.com/fleetdm/fleet) State of the art host monitoring platform tailored for security experts. Leveraging Facebook's battle-tested osquery project, Fleetdm delivers continuous updates, features and fast answers to big questions.
+ - **Fleetdm**: [fleetdm](https://github.com/fleetdm/fleet) State of the art host monitoring platform tailored for security experts. Leveraging Facebook's battle-tested osquery project, Fleetdm delivers continuous updates, features and fast answers to big questions.
 	- Official GitRepo of Fleetdm is **[HERE](https://fleetdm.com/)**
- - **osquery**: [fleetdm](https://github.com/osquery/osquery) Easily ask questions about your Linux and macOS infrastructure using a SQL-like query language; the provided incident-response pack helps you detect and respond to breaches.
-
-	
+ - **Osquery**: [fleetdm](https://github.com/osquery/osquery) Easily ask questions about your Linux and macOS infrastructure using a SQL-like query language; the provided incident-response pack helps you detect and respond to breaches.
+ - **Sysmon**: [Sysmon](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon) System Monitor (Sysmon) is a Windows system service and device driver that, once installed on a system, remains resident across system reboots to monitor and log system activity to the Windows event log. It provides detailed information about process creations, network connections, and changes to file creation time. By collecting the events it generates using Windows Event Collection or SIEM agents and subsequently analyzing them, you can identify malicious or anomalous activity and understand how intruders and malware operate on your network.
+	- Official GitRepo of Sysmon is **[HERE](https://github.com/olafhartong/sysmon-modular)**
+ - **Suricata**: [Suricata](https://github.com/OISF/suricata)
 Another open source we recommend with similar functionality
  - **TheHive**: [TheHive](https://thehive-project.org/) is a scalable 3-in-1 open source and free Security Incident Response Platform designed to make life easier for SOCs, CSIRTs, CERTs and any information security practitioner dealing with security incidents that need to be investigated and acted upon swiftly.
  - **Cortex**: Cortex, an open source and free software, has been created by TheHive Project for this very purpose. Observables, such as IP and email addresses, URLs, domain names, files or hashes, can be analyzed one by one or in bulk mode using a Web interface. Analysts can also automate these operations thanks to the Cortex REST API.
     - Official GitRepo of Cortex is **[HERE](https://github.com/TheHive-Project/Cortex)**
  - **MISP**: MISP is an open source software solution for collecting, storing, distributing and sharing cyber security indicators and threats about cyber security incidents analysis and malware analysis. MISP is designed by and for incident analysts, security and ICT professionals or malware reversers to support their day-to-day operations to share structured information efficiently.
    - Official GitRepo of MISP is **[HERE](https://github.com/MISP/MISP)**
-
+ - **Shuffle**: [Shuffle](https://shuffler.io/) is an Open Source SOAR solution for making orchestration easy between security tools.
 # ☸Additional Components(Second Phase of Implementation):
  - **Snort**: [Snort](https://www.snort.org/) is the foremost Open Source Intrusion Prevention System (IPS) in the world.
  - **Wazuh**: [Wazuh](https://wazuh.com/) is an open source security monitoring solution which collects and analyzes host security data. It is a fork of the older, better known OSSEC project.
@@ -54,7 +53,7 @@ Another open source we recommend with similar functionality
    - Official website of Jupyter is **[HERE](https://jupyter.org/)**
  - **IntelOwl**: [IntelOwl](https://intelowlproject.github.io/) is an Open Source Intelligence, or OSINT solution to get threat intelligence data about a specific file, an IP or a domain from a single API at scale
  - **Atomic Red Team™**: [Atomic Red Team™](https://github.com/redcanaryco/atomic-red-team) is library of tests mapped to the MITRE ATT&CK® framework. Security teams can use Atomic Red Team to quickly, portably, and reproducibly test their environments.
- - **Shuffle**: [Shuffle](https://shuffler.io/) is an Open Source SOAR solution for making orchestration easy between security tools.
+
  - **Twitter Bot**: We have created Twitter TI bot to collect meaningful intel about anything we care about and thus giving us the related information around them. You can find the episode [HERE](https://youtu.be/onklNNJcfDU)
 
 ## ☸Additional Components(Third Phase of Implementation):
