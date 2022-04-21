@@ -17,13 +17,8 @@ This Projects serves below usecases:
 # ☸Architecture-Diagram(Ongoing):
 <p align="center"> <img src="images/GHTK-SOC.jpg"> </p>
 
-## ☸Shuffle-Workflow-Implementation
- - For utilizing Shuffle workflow please first refer the installation guideline from Index.
- - Once you have your shuffle instance up and running, please refer to this video [HERE](https://youtu.be/Nb9_ahZMC5U) for full walkthrough.
-
-
 # ☸SOC Techstack:
-In GHTK 
+In GHTK we use
  - **Elastic SIEM**: Open source SIEM platform powered by ElasticSearch, Logstash, Kibana
 	- Official GitRepo of Logstash is **[HERE](https://github.com/elastic/logstash)**
 	- Official GitRepo of Elasticsearch is **[HERE](https://github.com/elastic/elasticsearch)**
@@ -37,7 +32,11 @@ In GHTK
  - **Osquery**: [fleetdm](https://github.com/osquery/osquery) Easily ask questions about your Linux and macOS infrastructure using a SQL-like query language; the provided incident-response pack helps you detect and respond to breaches.
  - **Sysmon**: [Sysmon](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon) System Monitor (Sysmon) is a Windows system service and device driver that, once installed on a system, remains resident across system reboots to monitor and log system activity to the Windows event log. It provides detailed information about process creations, network connections, and changes to file creation time. By collecting the events it generates using Windows Event Collection or SIEM agents and subsequently analyzing them, you can identify malicious or anomalous activity and understand how intruders and malware operate on your network.
 	- Official GitRepo of Sysmon is **[HERE](https://github.com/olafhartong/sysmon-modular)**
- - **Suricata**: [Suricata](https://github.com/OISF/suricata)
+ - **Carbon Black** [Carbon Black](https://www.vmware.com/products/carbon-black-cloud-endpoint.html) VMware Carbon Black Endpoint consolidates multiple endpoint security capabilities using one agent and console, helping you operate faster and more effectively.
+	- Official GitRepo of Carbon Black is **[HERE](https://github.com/carbonblack)**
+ - **Suricata**: [Suricata](https://suricata.io/) is a network IDS, IPS and NSM engine developed by the OISF and the Suricata community.
+	- Official GitRepo of Suricata is **[HERE](https://github.com/OISF/suricata)**
+	
 Another open source we recommend with similar functionality
  - **TheHive**: [TheHive](https://thehive-project.org/) is a scalable 3-in-1 open source and free Security Incident Response Platform designed to make life easier for SOCs, CSIRTs, CERTs and any information security practitioner dealing with security incidents that need to be investigated and acted upon swiftly.
  - **Cortex**: Cortex, an open source and free software, has been created by TheHive Project for this very purpose. Observables, such as IP and email addresses, URLs, domain names, files or hashes, can be analyzed one by one or in bulk mode using a Web interface. Analysts can also automate these operations thanks to the Cortex REST API.
@@ -48,16 +47,10 @@ Another open source we recommend with similar functionality
 # ☸Additional Components(Second Phase of Implementation):
  - **Snort**: [Snort](https://www.snort.org/) is the foremost Open Source Intrusion Prevention System (IPS) in the world.
  - **Wazuh**: [Wazuh](https://wazuh.com/) is an open source security monitoring solution which collects and analyzes host security data. It is a fork of the older, better known OSSEC project.
- - **Honeypot Dionea**: [Dionaea](https://dionaea.readthedocs.io/en/latest/index.html) intention is to trap malware exploiting vulnerabilities exposed by services offered to a network, gaining a copy of the malware.
- - **Jupyter Notebook**: The Jupyter Notebook is a web-based interactive computing platform. The notebook combines live code, equations, narrative text, visualizations etc.
-   - Official website of Jupyter is **[HERE](https://jupyter.org/)**
  - **IntelOwl**: [IntelOwl](https://intelowlproject.github.io/) is an Open Source Intelligence, or OSINT solution to get threat intelligence data about a specific file, an IP or a domain from a single API at scale
  - **Atomic Red Team™**: [Atomic Red Team™](https://github.com/redcanaryco/atomic-red-team) is library of tests mapped to the MITRE ATT&CK® framework. Security teams can use Atomic Red Team to quickly, portably, and reproducibly test their environments.
 
  - **Twitter Bot**: We have created Twitter TI bot to collect meaningful intel about anything we care about and thus giving us the related information around them. You can find the episode [HERE](https://youtu.be/onklNNJcfDU)
-
-## ☸Additional Components(Third Phase of Implementation):
- - **Elastic EDR**: [Elastic EDR](https://www.elastic.co/endpoint-security/) prevents ransomware and malware, detects advanced threats, and arms responders with vital context. It’s free and open, ready for every endpoint.
 
 # 🔽Installation-Requirements: 
 ## ☁Hardware Requirements: about 1500 VM
