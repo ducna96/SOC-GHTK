@@ -29,14 +29,15 @@ In GHTK we use
     - Official GitRepo of Graylog is **[HERE](https://www.graylog.org/)**
  - **Fleetdm**: [fleetdm](https://github.com/fleetdm/fleet) State of the art host monitoring platform tailored for security experts. Leveraging Facebook's battle-tested osquery project, Fleetdm delivers continuous updates, features and fast answers to big questions.
 	- Official GitRepo of Fleetdm is **[HERE](https://fleetdm.com/)**
- - **Osquery**: [fleetdm](https://github.com/osquery/osquery) Easily ask questions about your Linux and macOS infrastructure using a SQL-like query language; the provided incident-response pack helps you detect and respond to breaches.
+ - **Osquery**: [Osquery](https://osquery.io/) Easily ask questions about your Linux and macOS infrastructure using a SQL-like query language; the provided incident-response pack helps you detect and respond to breaches.
+	- Official GitRepo of Fleetdm is **[HERE](https://github.com/osquery/osquery)**
  - **Sysmon**: [Sysmon](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon) System Monitor (Sysmon) is a Windows system service and device driver that, once installed on a system, remains resident across system reboots to monitor and log system activity to the Windows event log. It provides detailed information about process creations, network connections, and changes to file creation time. By collecting the events it generates using Windows Event Collection or SIEM agents and subsequently analyzing them, you can identify malicious or anomalous activity and understand how intruders and malware operate on your network.
 	- Official GitRepo of Sysmon is **[HERE](https://github.com/olafhartong/sysmon-modular)**
  - **Carbon Black** [Carbon Black](https://www.vmware.com/products/carbon-black-cloud-endpoint.html) VMware Carbon Black Endpoint consolidates multiple endpoint security capabilities using one agent and console, helping you operate faster and more effectively.
 	- Official GitRepo of Carbon Black is **[HERE](https://github.com/carbonblack)**
  - **Suricata**: [Suricata](https://suricata.io/) is a network IDS, IPS and NSM engine developed by the OISF and the Suricata community.
 	- Official GitRepo of Suricata is **[HERE](https://github.com/OISF/suricata)**
-	
+ - **Monitotring** we use TIG Stack stand for Telegraf, InfluxDB, and Grafana, prometheus 
 Another open source we recommend with similar functionality
  - **TheHive**: [TheHive](https://thehive-project.org/) is a scalable 3-in-1 open source and free Security Incident Response Platform designed to make life easier for SOCs, CSIRTs, CERTs and any information security practitioner dealing with security incidents that need to be investigated and acted upon swiftly.
  - **Cortex**: Cortex, an open source and free software, has been created by TheHive Project for this very purpose. Observables, such as IP and email addresses, URLs, domain names, files or hashes, can be analyzed one by one or in bulk mode using a Web interface. Analysts can also automate these operations thanks to the Cortex REST API.
@@ -44,12 +45,10 @@ Another open source we recommend with similar functionality
  - **MISP**: MISP is an open source software solution for collecting, storing, distributing and sharing cyber security indicators and threats about cyber security incidents analysis and malware analysis. MISP is designed by and for incident analysts, security and ICT professionals or malware reversers to support their day-to-day operations to share structured information efficiently.
    - Official GitRepo of MISP is **[HERE](https://github.com/MISP/MISP)**
  - **Shuffle**: [Shuffle](https://shuffler.io/) is an Open Source SOAR solution for making orchestration easy between security tools.
-# ☸Additional Components(Second Phase of Implementation):
  - **Snort**: [Snort](https://www.snort.org/) is the foremost Open Source Intrusion Prevention System (IPS) in the world.
  - **Wazuh**: [Wazuh](https://wazuh.com/) is an open source security monitoring solution which collects and analyzes host security data. It is a fork of the older, better known OSSEC project.
  - **IntelOwl**: [IntelOwl](https://intelowlproject.github.io/) is an Open Source Intelligence, or OSINT solution to get threat intelligence data about a specific file, an IP or a domain from a single API at scale
  - **Atomic Red Team™**: [Atomic Red Team™](https://github.com/redcanaryco/atomic-red-team) is library of tests mapped to the MITRE ATT&CK® framework. Security teams can use Atomic Red Team to quickly, portably, and reproducibly test their environments.
-
  - **Twitter Bot**: We have created Twitter TI bot to collect meaningful intel about anything we care about and thus giving us the related information around them. You can find the episode [HERE](https://youtu.be/onklNNJcfDU)
 
 # 🔽Installation-Requirements: 

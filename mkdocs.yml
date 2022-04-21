@@ -16,7 +16,7 @@ nav:
   - Welcome to osquery: index.md
 - installation:
   - Install install-graylog: installation/install-graylog.md
-  - Install install-logtash-filebeat: installation/install-logtash-filebeat.md
+  - Install install-logtash-filebeat: installation/install-ELK.md
   - Install install-grafana-prometheus: installation/install-grafana-prometheus.md
 - integration:
   - Configuration: integration/integration.md
