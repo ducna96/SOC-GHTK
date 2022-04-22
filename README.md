@@ -38,7 +38,7 @@ In GHTK we use
  - **Suricata**: [Suricata](https://suricata.io/) is a network IDS, IPS and NSM engine developed by the OISF and the Suricata community.
 	- Official GitRepo of Suricata is **[HERE](https://github.com/OISF/suricata)**
  - **Monitotring** we use TIG Stack stand for Telegraf, InfluxDB, and Grafana, prometheus 
-Another open source we recommend with similar functionality
+## Another open source we recommend with similar functionality
  - **TheHive**: [TheHive](https://thehive-project.org/) is a scalable 3-in-1 open source and free Security Incident Response Platform designed to make life easier for SOCs, CSIRTs, CERTs and any information security practitioner dealing with security incidents that need to be investigated and acted upon swiftly.
  - **Cortex**: Cortex, an open source and free software, has been created by TheHive Project for this very purpose. Observables, such as IP and email addresses, URLs, domain names, files or hashes, can be analyzed one by one or in bulk mode using a Web interface. Analysts can also automate these operations thanks to the Cortex REST API.
     - Official GitRepo of Cortex is **[HERE](https://github.com/TheHive-Project/Cortex)**
