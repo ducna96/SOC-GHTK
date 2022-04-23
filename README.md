@@ -15,10 +15,10 @@ This Projects serves below usecases:
  - **Enrich** Data feeds with Open Source Threat Intelligence Platform
 
 # ☸Architecture-Diagram(Ongoing):
-<p align="center"> <img src="docs/images/GHTK-SOC.jpg"> </p>
+<p align="center"> <img src="images/GHTK-SOC.jpg"> </p>
 
-# ☸SOC Techstack:
-In GHTK we use
+## ☸GHTK SOC Techstack:
+
  - **Elastic SIEM**: Open source SIEM platform powered by ElasticSearch, Logstash, Kibana
 	- Official GitRepo of Logstash is **[HERE](https://github.com/elastic/logstash)**
 	- Official GitRepo of Elasticsearch is **[HERE](https://github.com/elastic/elasticsearch)**
@@ -65,6 +65,7 @@ In GHTK we use
 | 5601 | Your IP | Accessing Kibana UI
 | 9000 | Your IP | Accessing Graylog UI|
 | 5044 | Your IP | Accessing Logstash|
+| 3000 | Your IP | Accessing Grafana|
 
 # 🤝Contributing
 We welcome your contributions. Please feel free to fork the code, play with it, make some patches and send us pull requests. 

@@ -13,8 +13,11 @@ nav:
 - Introduction:
   - Welcome to GHTK-SOC: index.md
 - installation:
-  - Install install-graylog: installation/install-graylog.md
-  - Install install-logtash-filebeat: installation/install-ELK.md
-  - Install install-grafana-prometheus: installation/install-grafana-prometheus.md
+  - Install install-graylog: installation/install-Graylog.md
+  - Install install-ELK: installation/install-ELK.md
+  - Install install-Fleetdm-Osquery: installation/install-Fleetdm-Osquery.md
+  - Install install-Sysmon-Winlogbeat: installation/install-Sysmon-Winlogbeat.md
+  - Install install-Grafana-Prometheus: installation/install-Grafana-Prometheus.md
+  - Install install-Suricata: installation/install-Suricata.md  
 - integration:
   - Configuration: integration/integration.md
