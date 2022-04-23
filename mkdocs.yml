@@ -11,7 +11,7 @@ markdown_extensions:
 
 nav:
 - Introduction:
-  - Welcome to osquery: index.md
+  - Welcome to GHTK-SOC: index.md
 - installation:
   - Install install-graylog: installation/install-graylog.md
   - Install install-logtash-filebeat: installation/install-ELK.md
