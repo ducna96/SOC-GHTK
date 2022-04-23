@@ -4,7 +4,7 @@ theme: readthedocs
 site_name: GHTK-SOC
 theme: readthedocs
 repo_url: https://github.com/ducna96/SOC-GHTK
-edit_uri: https://github.com/ducna96/SOC-GHTK/edit/master/docs/index.md
+edit_uri: https://github.com/ducna96/SOC-GHTK/edit/master/docs/
 docs_dir: docs/
 markdown_extensions:
   - admonition
@@ -13,8 +13,8 @@ nav:
 - Introduction:
   - Welcome to osquery: index.md
 - installation:
-  - Install install-graylog: docs/installation/install-graylog.md
-  - Install install-logtash-filebeat: docs/installation/install-ELK.md
-  - Install install-grafana-prometheus: docs/installation/install-grafana-prometheus.md
+  - Install install-graylog: installation/install-graylog.md
+  - Install install-logtash-filebeat: installation/install-ELK.md
+  - Install install-grafana-prometheus: installation/install-grafana-prometheus.md
 - integration:
-  - Configuration: docs/integration/integration.md
+  - Configuration: integration/integration.md
