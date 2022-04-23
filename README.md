@@ -15,7 +15,7 @@ This Projects serves below usecases:
  - **Enrich** Data feeds with Open Source Threat Intelligence Platform
 
 # ☸Architecture-Diagram(Ongoing):
-<p align="center"> <img src="images/GHTK-SOC.jpg"> </p>
+<p align="center"> <img src="docs/images/GHTK-SOC.jpg"> </p>
 
 # ☸SOC Techstack:
 In GHTK we use
