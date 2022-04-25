@@ -1,7 +1,7 @@
 # 🤝HIRE US FOR FULL INSTALLATION🤝
 
 Contact Info: ducna36@ghtk.co
-Installation Guide(First Phase):
+## Installation Guide(First Phase):
 ```sh
 Contents  Collapse 
 Steps to Install Graylog On Ubuntu 20.04
@@ -99,8 +99,8 @@ systemctl status mongod
 
 netstat -tunelp | grep 27017
 ```
-<p align="center"> <img src="images/Manage-Logs-with-Graylog-server-on-Ubuntu-20-1.jpg"> </p>
-<p align="center"> <img src="images/Manage-Logs-with-Graylog-server-on-Ubuntu-20-2.jpg"> </p>
+<p align="center"> <img src="https://imgur.com/a/eM9fPco"> </p>
+<p align="center"> <img src="images-install/Manage-Logs-with-Graylog-server-on-Ubuntu-20-2.jpg"> </p>
 MongoDB config file: ‘/etc/mongod.conf’, After changes make sure you restart the MongoDB service
 
 4.6: Test the connection

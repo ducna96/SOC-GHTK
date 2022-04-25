@@ -3,7 +3,7 @@ This is a Project Designed for Security Analysts at Giao Hang Tiet Kiem JSC (GHT
 
 <ins> **NOTE - This is an Ongoing Project and the repo will be updated as we work on the new additions.** </ins>
 
-This Projects serves below usecases:
+## This Projects serves below usecases:
  - **Collect Data** to a Single Place.
  - **Normalize** and **Parse Data**
  - **Visualize Data** and prepare meaningful Security Analytics
