@@ -13,7 +13,7 @@ nav:
 - Introduction:
   - Welcome to GHTK-SOC: index.md
 - installation:
-  - Install install-graylog: installation/install-Graylog.md
+  - Install install-Graylog: installation/install-Graylog.md
   - Install install-ELK: installation/install-ELK.md
   - Install install-Fleetdm-Osquery: installation/install-Fleetdm-Osquery.md
   - Install install-Sysmon-Winlogbeat: installation/install-Sysmon-Winlogbeat.md
