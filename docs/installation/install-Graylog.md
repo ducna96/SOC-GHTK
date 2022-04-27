@@ -99,8 +99,8 @@ systemctl status mongod
 
 netstat -tunelp | grep 27017
 ```
-<p align="center"> <img src="https://imgur.com/a/eM9fPco"> </p>
-<p align="center"> <img src="images-install/Manage-Logs-with-Graylog-server-on-Ubuntu-20-2.jpg"> </p>
+![](../../images/graylog/Manage-Logs-with-Graylog-server-on-Ubuntu-20-1.jpg) 
+![](../../images/graylog/Manage-Logs-with-Graylog-server-on-Ubuntu-20-2.jpg) 
 MongoDB config file: ‘/etc/mongod.conf’, After changes make sure you restart the MongoDB service
 
 4.6: Test the connection
@@ -108,7 +108,7 @@ MongoDB config file: ‘/etc/mongod.conf’, After changes make sure you restart
 mongo --eval 'db.runCommand({ connectionStatus: 1 })'
 ```
 If everything is working fine then you will get “ok” : 1 in above output.
-<p align="center"> <img src="images/Manage-Logs-with-Graylog-server-on-Ubuntu-20-3"> </p>
+![](../../images/graylog/Manage-Logs-with-Graylog-server-on-Ubuntu-20-3.jpg) 
 
 Step 5: Install Graylog on Ubuntu
 Add Graylog repository and install graylog-server package
@@ -154,13 +154,13 @@ ubuntu@zabbix:~/Desktop$
 $ sudo vim /etc/graylog/server/server.conf
 password_secret = v7ricMclUDeQvUAJ7FZmE5aKXm1ibKvS4yaBRJuwMeThf9V2S7Pxc104chaGErisAAxjuPzAfrtBIqkaDmBOhOuNyvfdbqet
 ```
-<p align="center"> <img src="images/Manage-Logs-with-Graylog-server-on-Ubuntu-20-4"> </p>
+![](../../images/graylog/Manage-Logs-with-Graylog-server-on-Ubuntu-20-4.jpg) 
 Step 7: Start and enable Graylog service
 ```sh
 sudo systemctl enable graylog-server.service
 sudo systemctl start graylog-server.service
 ```
-<p align="center"> <img src="images/Manage-Logs-with-Graylog-server-on-Ubuntu-20-5"> </p>
+![](../../images/graylog/Manage-Logs-with-Graylog-server-on-Ubuntu-20-5.jpg) 
 By default, REST API will listen on:
 ```sh
 rest_listen_uri = http://127.0.0.1:9000/api/
@@ -175,14 +175,14 @@ Step 8: Access Graylog Web UI on Ubuntu
 ```sh
 http://ubuntuip_or_hostname:9000
 ```
-<p align="center"> <img src="images/Manage-Logs-with-Graylog-server-on-Ubuntu-20-6"> </p>
+![](../../images/graylog/Manage-Logs-with-Graylog-server-on-Ubuntu-20-6.jpg) 
 Login to the server with the credentials as mentioned in steps 6.
 ```sh
 Default user: admin
 Password: MyStrongPassword
 ```
 Home page of Graylog:
-<p align="center"> <img src="images/Manage-Logs-with-Graylog-server-on-Ubuntu-20-7"> </p>
+![](../../images/graylog/Manage-Logs-with-Graylog-server-on-Ubuntu-20-7.jpg) 
 (Below steps is Optional) – If you want to access Graylog with the domain then you need Nginx proxy as mention in steps 9.
 
 Step 9: Configure Nginx Proxy if you want to access Graylog with domain
@@ -214,3 +214,5 @@ Login to the server with the credentials as mentioned in steps 6.
 You have successfully installed and configure Graylog server.
 
 This is the End of a tutorial, How To Install Graylog On Ubuntu 20.04.
+
+ - For full docs to deploy Graylog [HERE](https://docs.graylog.org/docs/installing)
