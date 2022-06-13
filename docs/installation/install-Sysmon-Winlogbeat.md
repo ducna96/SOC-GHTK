@@ -26,7 +26,8 @@ Note that Sysmon does not provide analysis of the events it generates, nor does 
 	- Install event manifest: sysmon64 -m
 	- Print schema: sysmon64 -s
 	- Uninstall: sysmon64 -u [force]
-
+4. Config file 
+	This is a Microsoft Sysinternals Sysmon configuration file template with default high-quality event tracing. [HERE](https://github.com/SwiftOnSecurity/sysmon-config)
 
 | Parameter | Description 
 | --- | --- |
@@ -36,16 +37,15 @@ Note that Sysmon does not provide analysis of the events it generates, nor does 
 | -s | Print configuration schema definition |
 | -u | Uninstall service and driver. Using -u force causes uninstall to proceed even when some components are not installed |
 
-## Config file 
-This is a Microsoft Sysinternals Sysmon configuration file template with default high-quality event tracing. [HERE](https://github.com/SwiftOnSecurity/sysmon-config)
 
 
-##4. Deploying Sysmon by GPO
+
+## Deploying Sysmon by GPO
 
 - Login to server domain, create a folder containing file syscomon-controller.ps1
 - Download file [Sysmon-controler.ps1](https://github.com/HASecuritySolutions/Sysmon-Manager/blob/main/sysmon_controller.ps1)
 - Create GPO and link to the machines you want install
-	
+		
 	•	Under Computer Configuration – Preferences – Windows Settings – Files, create a new file
 ![](../../images/sysmon/sysmon-1.png)
 
