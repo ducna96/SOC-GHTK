@@ -19,6 +19,5 @@ nav:
   - install-Sysmon-Winlogbeat: installation/install-Sysmon-Winlogbeat.md
   - install-Grafana-Prometheus: installation/install-Grafana-Prometheus.md
   - install-Suricata: installation/install-Suricata.md
-  - install-docker-env: installation/install-for-testing.md  
 - integration:
   - Configuration: integration/integration.md
