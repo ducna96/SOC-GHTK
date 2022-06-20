@@ -1,4 +1,3 @@
-# 🤝HIRE US FOR FULL INSTALLATION🤝
 
 Contact Info: ducna36@ghtk.co
 ## Sysmon:

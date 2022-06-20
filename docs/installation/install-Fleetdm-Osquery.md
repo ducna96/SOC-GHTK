@@ -1,5 +1,3 @@
-# 🤝HIRE US FOR FULL INSTALLATION🤝
-
 Contact Info: ducna36@ghtk.co
 
 We will install osquery agent on all server linux to monitor and fleetdm to manage all osquery agent

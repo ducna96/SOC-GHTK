@@ -1,5 +1,3 @@
-# 🤝HIRE US FOR FULL INSTALLATION🤝
-
 Contact Info: ducna36@ghtk.co
 # Installation Guide(First Phase):
 We will install and configure all of the components First and will move to Integrating them one by one.
