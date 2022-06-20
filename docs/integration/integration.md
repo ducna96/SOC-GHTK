@@ -131,6 +131,3 @@ Since we use an aggregation event here, the message backlog might not be really 
 We go on to the summary to have a last look at our Event Definition.
 
 ![](../../images/graylog/graylog14.png)
-
-## TheHive:
-  - You can follow the detailed documentation **[HERE](https://docs.thehive-project.org/thehive/installation-and-configuration/installation/step-by-step-guide/)**
