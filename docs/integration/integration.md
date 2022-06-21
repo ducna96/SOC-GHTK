@@ -1,6 +1,4 @@
-# 🤝HIRE US FOR FULL INSTALLATION🤝
-
-Contact Info: archan.fiem.it@gmail.com, hk.sainaga@gmail.com
+Contact Info: ducna36@ghtk.co
 # Installation Guide(First Phase):
 We will show osquery intergration and graylog configure to capture cmd dangerous on server.
 
@@ -65,14 +63,14 @@ After we created the rules, we have to add rules to pipelines to classify messag
 
 After message log match with rule. We have to create a alert, Event Definitions allow you to create Alerts from different Conditions and alert on them.
 
-##Step1: Event Details
+####Step 1: Event Details
 
 After clicking on Create Event Definition we see the Event Definition create wizard. We are on the first page called Event Details. Here we enter title and description of our Event Definition. Also we define a priority. The priority is a tool for the user to add a classification to a event. It will be later displayed in the events overview as a thermometer:
 
 
 ![](../../images/graylog/graylog8.png)
 
-##Step2: Condition
+####Step 2: Condition
 
 Configure how Graylog should create Events of this kind. You can later use those Events as input on other Conditions, making it possible to build powerful Conditions based on other
 
@@ -108,7 +106,7 @@ To summarize what we have done here:
 
 ![](../../images/graylog/graylog11.png)
 
-##1.3 Fields
+####Step 3: Fields
 
 Here we can add a custom field to our event. These fields can be used for several things.
 
@@ -116,7 +114,7 @@ At this case, we create fields : alert_message to show message alert to notifica
 
 ![](../../images/graylog/graylog12.png)
 
-##1.4 Notification
+####Step 4: Notification
 
 We want to receive an telegram message when the event got raised. Configuring a notification, will elevate the event to an alert
 we have to create channel to notification, email, telegram http notification ....	
@@ -126,7 +124,7 @@ we have to create channel to notification, email, telegram http notification ...
 ![](../../images/graylog/graylog13.png)
 
 Since we use an aggregation event here, the message backlog might not be really helpful so I leave it off. The backlog will show all messages within the time range of Search within the last and use the Query we entered. If you have a good enough query this can still be helpful. The number input will limit the amount of messages in the backlog.
-##1.5 Summary
+####Step 5: Summary
 
 We go on to the summary to have a last look at our Event Definition.
 
